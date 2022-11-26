@@ -1,0 +1,12 @@
+/*Creates the gradient background on both pages*/
+body{
+    background: linear-gradient(-45deg, #ff0000, #731ed4, #800d5a, #ff8800);
+    background-size: 500% 500%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient{
+    0%{background-position: 0% 50%;}
+    50%{background-position: 90% 50%;}
+    100%{background-position: 0% 50%;}
+}
